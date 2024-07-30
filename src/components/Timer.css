@@ -1,0 +1,21 @@
+/* Timer.css */
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+.timer-display {
+    text-align: center;
+    font-size: 1em;
+}
+
+.btn {
+    margin: 5px;
+    padding: 1px 5px;
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
