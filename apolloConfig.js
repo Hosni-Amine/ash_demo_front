@@ -3,7 +3,7 @@ import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client';
 
 const client = new ApolloClient({
   link: new HttpLink({
-    uri: 'http://localhost:4000/graphql', 
+    uri: 'https://ash-demo-back.onrender.com/graphql',
     fetchOptions: {
       mode: 'cors', 
     },
